@@ -22,15 +22,15 @@ In producing this code, pyenv and pyenv-virtualenv was used for this step on a m
 * Install tensorflow version 2.10.0 using the relevant instructions for your operating system. System specific instructions for this can be found 
 [here](https://www.tensorflow.org/install/pip#linux) and may require the installation of Anaconda (conda). For example
   * For macOS, the command below is generally sufficient.
-  ```commandline
-  pip3 install tensorflow-macos==2.10.0
-  ```
-  * For Linux systems, conda installation is recommended and instructions for this can be found [here]([conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)). Following this the command below can be ran.
-  ```commandline
-  conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
-  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/
-  python3 -m pip install tensorflow
-  ```
+    ```commandline
+    pip3 install tensorflow-macos==2.10.0
+    ```
+  * For Linux systems, conda installation is recommended and instructions for this can be found [here](https://conda.io/projects/conda/en/latest/user-guide/install/index.html). Following this the command below can be ran.
+    ```commandline
+    conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/
+    python3 -m pip install tensorflow==2.10.0
+    ```
 
 ## Running the code
 Open any of the jupyter notebooks and begin running the code
