@@ -43,3 +43,7 @@ In producing this code, pyenv and pyenv-virtualenv was used for this step on a m
 ## Running the code
 Open any of the jupyter notebooks and begin running the code to familiarize yourself with the interface.
 
+## References
+[1] McConville, R., Santos-Rodríguez, R., Piechocki, R., & Craddock, I. (2019). N2D: (Not Too) Deep Clustering via Clustering the Local Manifold of an Autoencoded Embedding. IEEE Xplore. https://doi.org/10.1109/ICPR48806.2021.9413131
+
+[2] Advanced Usage — n2d 0.3.1 documentation. N2d.readthedocs.io. Retrieved July 27 , 2022, from https://n2d.readthedocs.io/en/latest/extending.html
